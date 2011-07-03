@@ -1,2 +1,2 @@
-$(".error").hide();
-$("#list_link").html("<%= escape_javascript(render(:partial => "link", :object => @doc))%>");
+$(".error").fadeOut();
+$("#list_link").html("<%= escape_javascript(render(:partial => "link", :object => @doc))%>").fadeIn();
